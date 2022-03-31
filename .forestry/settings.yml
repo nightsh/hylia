@@ -6,6 +6,8 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: heading
+  label: Globals
 - type: directory
   path: src/posts
   label: Posts
@@ -13,8 +15,6 @@ sections:
   match: "*.md"
   templates:
   - post
-- type: heading
-  label: Globals
 - type: document
   path: src/_data/navigation.json
   label: Navigation
